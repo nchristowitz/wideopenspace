@@ -1,0 +1,155 @@
+
+body{
+	background-color: green;
+}
+footer{
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius:36px;
+}
+figure {
+	width: 100%;
+	height: auto;
+	border-radius: 36px;
+	padding-bottom: 60px;
+}
+figcaption {
+	color: black;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:center;
+  	font-family:sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	text-indent:0;
+}
+
+p {
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size:48px;
+	padding:36px;
+}
+
+h1{
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size:124px;
+	font-weight:normal;
+	padding-bottom:48px;
+}
+
+h2{
+	font-family:sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	padding-bottom: 60px;
+}
+
+a {
+	color:blue;
+	font-size:36px;
+	padding-right:36px; 
+}
+
+a:hover {
+	color:black;
+}
+
+.bio {
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size:48px;
+	padding:0px;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.center {
+	width: 1080px;
+}
+.footerholder {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+.footer {
+    background: none repeat scroll 0 0 transparent;
+    height: 24px;
+    margin: auto;
+    width: 100%;
+}
+
+hr.solid{
+	border: 1px solid #000000;
+}
+
+
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+	body{
+		padding: 2vh;
+	}
+  
+  div.center {
+  	width: 480px;
+}
+	p {
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size:24px;
+	font-weight:lighter;
+}
+	h2{
+	font-family:sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+	h1{
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size:96px;
+	font-weight:normal;
+}
+figure {
+	width: 100%;
+	height: auto;
+	border-radius: 24px;
+	padding-bottom: 48px;
+}
+figcaption {
+	color: black;
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:center;
+  	font-family:sans-serif;
+	font-style: italic;
+	font-size: 16px;
+}
+a {
+	color:blue;
+	font-size:24px;
+	padding-right:24px; 
+}
+.bio {
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size:24px;
+	padding:0px;
+	padding-bottom: 36px;
+	padding-top: 36px;
+	}
