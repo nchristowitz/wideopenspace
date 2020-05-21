@@ -17,6 +17,8 @@ figure {
 	height: auto;
 	border-radius: 36px;
 	padding-bottom: 60px;
+	padding-left:12px;
+	padding-right:12px;
 }
 figcaption {
 	color: black;
@@ -25,7 +27,7 @@ figcaption {
 	text-align:center;
   	font-family:sans-serif;
 	font-style: italic;
-	font-size: 24px;
+	font-size: 18px;
 	text-indent:0;
 }
 
@@ -33,7 +35,8 @@ p {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
 	font-size:48px;
-	padding:36px;
+	padding-top:0px;
+	padding-bottom:96px;
 }
 
 h1{
@@ -50,6 +53,14 @@ h2{
 	font-weight: 400;
 	font-size: 36px;
 	padding-bottom: 60px;
+}
+
+h3{
+	font-family:sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	padding-bottom: 18px;	
 }
 
 a {
@@ -97,6 +108,12 @@ hr.solid{
 	border: 1px solid #000000;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
   /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 600px) {
@@ -110,7 +127,7 @@ hr.solid{
 	p {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:24px;
+	font-size:30px;
 	font-weight:lighter;
 }
 	h2{
@@ -124,6 +141,13 @@ hr.solid{
 	font-family: "Times New Roman", Times, serif;
 	font-size:96px;
 	font-weight:normal;
+}
+h3{
+	font-family:sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	padding-bottom: 18px;	
 }
 figure {
 	width: 100%;
@@ -148,8 +172,20 @@ a {
 .bio {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:24px;
+	font-size:30px;
 	padding:0px;
 	padding-bottom: 36px;
 	padding-top: 36px;
 	}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer {
+    background: none repeat scroll 0 0 transparent;
+    height: 24px;
+    margin: auto;
+    width: 100%;
+}
