@@ -73,6 +73,14 @@ a {
 a:hover {
 	color:black;
 }
+a.inline {
+	color:blue;
+	font-size:48px;
+}
+
+a.inline:hover {
+	color:black;
+}
 
 .bio {
 	text-align: left;
