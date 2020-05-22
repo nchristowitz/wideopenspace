@@ -76,6 +76,7 @@ a:hover {
 a.inline {
 	color:blue;
 	font-size:48px;
+	padding-right:0px;
 }
 
 a.inline:hover {
