@@ -183,6 +183,8 @@ figure {
 	height: auto;
 	border-radius: 16px;
 	padding-bottom: 48px;
+	padding-left: 6px;
+	padding-right: 6px;
 }
 figcaption {
 	color: black;
@@ -222,8 +224,8 @@ a.inline {
 	display: flex;
   	flex-direction: column;
   	justify-content: space-between;
-	padding-right: 12px;
-	padding-left: 12px;
+	padding-right: 6px;
+	padding-left: 6px;
 }
 
 .footer {
