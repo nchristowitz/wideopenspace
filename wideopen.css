@@ -235,8 +235,8 @@ a.inline {
 	display: flex;
   	flex-direction: column;
   	justify-content: space-between;
-	padding-right: 3px;
-	padding-left: 3px;
+	padding-right: 6px;
+	padding-left: 6px;
 }
 
 .footer {
