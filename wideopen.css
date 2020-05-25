@@ -164,7 +164,7 @@ hr.solid{
 	font-size:96px;
 	font-weight:normal;
 }
-h3{
+	h3{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -197,6 +197,11 @@ a {
 	color:blue;
 	font-size:24px;
 	padding-right:24px; 
+}
+a.inline {
+	color:blue;
+	font-size:26px;
+	padding-right:0px;
 }
 .bio {
 	text-align: left;
