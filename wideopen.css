@@ -220,15 +220,15 @@ a.inline {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0px -12px;
+  margin: 0px -6px;
 }
 
 .row {
 	display: flex;
   	flex-direction: column;
   	justify-content: space-between;
-	padding-right: 6px;
-	padding-left: 6px;
+	padding-right: 3px;
+	padding-left: 3px;
 }
 
 .footer {
