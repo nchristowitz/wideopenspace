@@ -144,8 +144,16 @@ hr.solid{
 		padding: 0px;
 }
   
-  	div.center {
+  	.center {
   	width: 100%;
+}
+	.container {
+	display: flex;
+	justify-content: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left:6px;
+	padding-right:6px;
 }
 	p {
 	text-align: left;
