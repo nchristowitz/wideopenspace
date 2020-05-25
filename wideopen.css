@@ -187,6 +187,7 @@ figure {
 	padding-left: 6px;
 	padding-right: 6px;
 }
+
 figcaption {
 	color: black;
 	padding-top:12px;
@@ -219,7 +220,7 @@ a.inline {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0px -6px;
+  margin: 0px -12px;
 }
 
 .row {
