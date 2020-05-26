@@ -7,6 +7,12 @@ footer{
 	font-size:18px;
 }
 
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+   	overflow-y: hidden;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -135,6 +141,48 @@ hr.solid{
 	padding-right: 12px;
 	padding-left: 12px;
 }
+
+
+/*DYNAMIC DRIVE CSS GALLERY*/
+
+.gallerycontainer{
+position: relative;
+width:100%;
+height: auto;
+
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+margin: 0 -18px 12px 0;
+width: 10%;
+border-radius: 16px;
+vertical-align: top;	
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+width: 75%;
+padding: 0px;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+width:100%; 
+margin: 0 0px 0px 0;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 100%;
+padding-top: 12px;
+left: 0%; /*position where enlarged image should offset horizontally */
+z-index: 50;
+
+}
+
 
 
   /* If the screen size is 600px or less, set the font-size of <div> to 30px */
