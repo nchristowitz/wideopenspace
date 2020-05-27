@@ -172,6 +172,7 @@ text-decoration: none;
 .thumbnail span img{ /*CSS for enlarged image*/
 width:100%; 
 margin: 0 0px 0px 0;
+border-radius: 36px;
 }
 
 .thumbnail:hover span{ /*CSS for enlarged image*/
