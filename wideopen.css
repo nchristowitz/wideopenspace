@@ -160,6 +160,10 @@ border-radius: 16px;
 vertical-align: top;	
 }
 
+.thumbnail:hover img{
+border-radius: 32px;	
+}
+
 .thumbnail span{ /*CSS for enlarged image*/
 position: absolute;
 width: 75%;
