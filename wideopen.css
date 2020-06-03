@@ -10,7 +10,7 @@ footer{
 html {
     margin-left: calc(100vw - 100%);
     margin-right: 0;
-   	overflow-y: hidden;
+   	overflow-y:scroll;
 }
 
 img {
