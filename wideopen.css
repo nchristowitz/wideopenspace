@@ -117,7 +117,7 @@ a.inline:hover {
     position: center;
     top: 0;
     left: 0;
-    width: 1080px;
+    width: auto;
     height: auto;
     
 }
