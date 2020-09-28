@@ -109,7 +109,7 @@ a.inline:hover {
 
 .video-responsive{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:56.25%+24px;
     position:relative;
     height:0;
 }
