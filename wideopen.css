@@ -41,7 +41,7 @@ figcaption {
 p {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:48px;
+	font-size:36px;
 	padding-top:0px;
 	padding-bottom:96px;
 }
@@ -312,4 +312,5 @@ a.inline {
     height: 24px;
     margin: auto;
     width: 100%;
+}
 }
