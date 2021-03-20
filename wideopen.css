@@ -81,7 +81,7 @@ a:hover {
 }
 a.inline {
 	color:blue;
-	font-size:48px;
+	font-size:36px;
 	padding-right:0px;
 }
 
@@ -92,9 +92,9 @@ a.inline:hover {
 .bio {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:48px;
+	font-size:36px;
 	padding:0px;
-	padding-bottom: 60px;
+	padding-bottom: 120px;
 	padding-top: 60px;
 }
 .container {
