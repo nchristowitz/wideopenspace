@@ -188,7 +188,8 @@
   }
   
   .header-container {
-	margin: 48 0 80px 0;
+	margin: 48 -8px 80px -8px;
+	width: calc(100% + 16px);
 	background-color: var(--color-header-bg);
 	border-radius: var(--border-radius-medium);
 	padding: var(--spacing-lg);
@@ -210,6 +211,12 @@
   }
   .links-container a:last-child {
 	margin-right: 0;
+  }
+
+  .back-to-top a {
+	font-size: inherit;
+	color: var(--color-text);
+	text-decoration: underline;
   }
   
   /* Images and figures */
