@@ -188,17 +188,17 @@
   }
   
   .header-container {
-	margin: 0 -48px 96px -48px;
-	width: calc(100% + 96px);
+	margin: 0 -24px 80px -24px;
+	width: calc(100% + 48px);
 	background-color: var(--color-header-bg);
 	border-radius: var(--border-radius-medium);
-	padding: var(--spacing-xl);
+	padding: var(--spacing-md);
   }
   @media only screen and (max-width: 600px) {
 	.header-container {
 	margin: 0 0 48px 0;
 	  width: 100%;
-	  padding: var(--spacing-md);
+	  padding: var(--spacing-sm);
 	  border-radius: var(--border-radius-medium);
 	}
   }
