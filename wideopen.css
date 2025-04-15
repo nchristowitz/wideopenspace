@@ -79,6 +79,7 @@
 	font-style: normal;
 	padding: 2px 6px;
 	margin-bottom: var(--spacing-xs);
+	margin-top: var(--spacing-xs);
 	display: inline-block;
 	background-color: var(--color-highlight);
   }
@@ -107,7 +108,6 @@
   @media only screen and (max-width: 600px) {
 	p {
 	  font-size: 16px;
-	  font-weight: lighter;
 	}
   }
   
@@ -167,21 +167,23 @@
   }
   @media only screen and (max-width: 600px) {
 	.container {
-	  padding: var(--spacing-md) var(--spacing-xs);
+	  padding: 0;
 	}
   }
   
   .center {
-	width: 740px;
+	width: 720px;
   }
   @media only screen and (max-width: 900px) {
 	.center {
-	  width: 90%;
+	  width: 100%;
+	  padding: var(--spacing-sm);
 	}
   }
   @media only screen and (max-width: 600px) {
 	.center {
-	  width: 90%;
+	  width: 100%;
+	  padding: var(--spacing-sm);
 	}
   }
   
@@ -194,8 +196,8 @@
   }
   @media only screen and (max-width: 600px) {
 	.header-container {
-	  margin: 0 -36px 64px -36px;
-	  width: calc(100% + 72px);
+	margin: 0 0 48px 0;
+	  width: 100%;
 	  padding: var(--spacing-md);
 	  border-radius: var(--border-radius-medium);
 	}
@@ -270,7 +272,8 @@
   }
   @media only screen and (max-width: 600px) {
 	.flex-container {
-	  margin: 0 -6px;
+	  margin: 0;
+	  gap: var(--spacing-xs);
 	}
   }
   
@@ -291,7 +294,6 @@
   .footerholder {
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
-	position: fixed;
 	text-align: center;
 	width: 100%;
   }
@@ -332,10 +334,20 @@
 	padding-bottom: 56.25%;
 	position: relative;
 	height: 0;
-	margin: 0 -48px 0 -48px;
+	margin: 0 -48px 36px -48px;
 	border-radius: 	var(--border-radius-medium);
   }
   
+  @media only screen and (max-width: 600px) {
+	.video-responsive {
+		overflow: hidden;
+		position: relative;
+		height: auto;
+		margin: 0 0 16px 0;
+		border-radius: 	var(--border-radius-medium);
+	  }
+  }
+
   .video-responsive iframe {
 	left: 0;
 	top: 0;
