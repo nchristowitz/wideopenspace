@@ -156,6 +156,32 @@ hr.solid{
 	padding-left: 12px;
 }
 
+.links-container {
+	display: flex;
+	margin-bottom: 24px;
+  }
+  
+  .links-container a {
+	margin-right: 24px;
+  }
+  
+  .links-container a:last-child {
+	margin-right: 0;
+  }
+
+.divider {
+	border: none;
+	height: 1px;
+	background-color: #000000;
+	opacity: 0.2;
+	margin: 36px 0;
+  }
+  
+@media only screen and (max-width: 600px) {
+	.divider {
+	  margin: 24px 0;
+	}
+  }
 
 /*DYNAMIC DRIVE CSS GALLERY*/
 
