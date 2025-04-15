@@ -1,6 +1,6 @@
 
 body{
-	background-color: #f0e5d9;
+	background-color: #efece9;
 }
 footer{
 	font-family: "Times New Roman", Times, serif;
@@ -28,7 +28,7 @@ figure {
 	
 }
 figcaption {
-	color: black;
+	color: rgb(30, 30, 30);
 	padding-top:12px;
 	padding-bottom:48px;
 	text-align:center;
@@ -49,9 +49,9 @@ p {
 h1{
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:124px;
+	font-size:80px;
 	font-weight:normal;
-	padding-bottom:48px;
+	padding-bottom:24px;
 }
 
 h2{
@@ -76,7 +76,7 @@ a {
 }
 
 a:hover {
-	color:black;
+	color:rgb(30, 30, 30);
 }
 a.inline {
 	color:blue;
@@ -90,11 +90,11 @@ a.inline:hover {
 
 .bio {
 	text-align: left;
-	font-family: "Times New Roman", Times, serif;
-	font-size:18px;
+	font-family:sans-serif;
+	font-size:24px;
 	padding:0px;
-	padding-bottom: 32px;
-	padding-top: 32px;
+	padding-bottom: 16px;
+	padding-top: 16px;
 }
 .container {
 	display: flex;
