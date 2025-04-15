@@ -66,14 +66,13 @@ h3{
 	font-family:sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 18px;
 	padding-bottom: 18px;	
 }
 
 a {
 	color:blue;
-	font-size:36px;
-	padding-right:36px; 
+	font-size:18px;
 }
 
 a:hover {
@@ -81,7 +80,7 @@ a:hover {
 }
 a.inline {
 	color:blue;
-	font-size:36px;
+	font-size:32px;
 	padding-right:0px;
 }
 
@@ -94,8 +93,8 @@ a.inline:hover {
 	font-family: "Times New Roman", Times, serif;
 	font-size:18px;
 	padding:0px;
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-bottom: 32px;
+	padding-top: 32px;
 }
 .container {
 	display: flex;
