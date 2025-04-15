@@ -158,6 +158,22 @@
 	  font-size: 16px;
 	}
   }
+
+  .share-link {
+	color: var(--color-link);
+	font-size: 14px;
+  }
+
+  .share-link a {
+	color: var(--color-link);
+	font-size: 14px;
+  }
+
+  .share-link a:hover {
+	color: var(--color-text);
+	background-color: var(--color-highlight);
+	font-size: 14px;
+  }
   
   /* Layout containers */
   .container {
