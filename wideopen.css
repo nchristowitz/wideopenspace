@@ -74,19 +74,18 @@
   
   h3 {
 	font-family: var(--mono-font);
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	font-style: normal;
-	padding: 4px 8px;
-	margin-bottom: var(--spacing-sm);
+	padding: 2px 6px;
+	margin-bottom: var(--spacing-xs);
 	display: inline-block;
 	background-color: var(--color-highlight);
   }
 
   @media only screen and (max-width: 600px) {
 	h3 {
-	  font-size: 18px;
-	  padding-bottom: 18px;
+	  font-size: 14px;
 	}
   }
   
@@ -113,8 +112,8 @@
   }
   
   .bio {
-	font-family: var(--system-font);
-	font-size: 21px;
+	font-family: var(--mono-font);
+	font-size: 14px;
 	line-height: 1.5;
 	text-align: left;
 	padding: 0;
@@ -123,17 +122,17 @@
   }
   @media only screen and (max-width: 600px) {
 	.bio {
-	  font-size: 16px;
-	  padding-bottom: var(--spacing-lg);
-	  padding-top: var(--spacing-lg);
+	  font-size: 14px;
+	  padding-bottom: var(--spacing-sm);
+	  padding-top: var(--spacing-sm);
 	}
   }
   
   /* Links */
   a {
 	color: var(--color-link);
-	font-size: 20px;
-	font-family: var(--system-font);
+	font-size: 14px;
+	font-family: var(--mono-font);
 	line-height: 1.25;
   }
   a:hover {
@@ -182,7 +181,7 @@
   }
   @media only screen and (max-width: 600px) {
 	.center {
-	  width: 100%;
+	  width: 90%;
 	}
   }
   
