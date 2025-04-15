@@ -30,7 +30,7 @@ figure {
 figcaption {
 	color: black;
 	padding-top:12px;
-	padding-bottom:12px;
+	padding-bottom:48px;
 	text-align:center;
   	font-family:sans-serif;
 	font-style: italic;
@@ -41,9 +41,9 @@ figcaption {
 p {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:36px;
+	font-size:32px;
 	padding-top:0px;
-	padding-bottom:120px;
+	padding-bottom:60px;
 }
 
 h1{
@@ -92,9 +92,9 @@ a.inline:hover {
 .bio {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:36px;
+	font-size:18px;
 	padding:0px;
-	padding-bottom: 120px;
+	padding-bottom: 60px;
 	padding-top: 60px;
 }
 .container {
@@ -122,7 +122,7 @@ a.inline:hover {
 }
 
 .center {
-	width: 920px;
+	width: 800px;
 }
 .footerholder {
     background: none repeat scroll 0 0 transparent;
