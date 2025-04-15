@@ -46,7 +46,7 @@ figcaption {
 p {
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	line-height: 1.4;
+	line-height: 1.25;
 	font-size:32px;
 	padding-top:0px;
 	padding-bottom:48px;
@@ -55,9 +55,9 @@ p {
 h1{
 	text-align: left;
 	font-family: "Times New Roman", Times, serif;
-	font-size:72px;
+	font-size:54px;
 	font-weight:normal;
-	padding-bottom:24px;
+	line-height: 1.1;
 }
 
 h2{
@@ -80,7 +80,7 @@ a {
 	color:blue;
 	font-size:20px;
 	font-family: var(--system-font);
-	line-height: 1.4;
+	line-height: 1.25;
 }
 
 a:hover {
@@ -115,10 +115,11 @@ a.inline:hover {
 }
 
 .header-container {
+	margin: 0 -36px 36px -36px; /* Negative margins to extend outward */
+	width: calc(100% + 72px); /* Compensate for negative margins */
 	background-color: rgb(251, 250, 248);
 	border-radius: 36px;
 	padding: 36px;
-	margin-bottom: 36px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -181,7 +182,6 @@ hr.solid{
 
 .links-container {
 	display: flex;
-	margin-bottom: 24px;
   }
   
   .links-container a {
