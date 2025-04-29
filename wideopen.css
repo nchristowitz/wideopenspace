@@ -461,3 +461,42 @@
 .data-table .item-name {
     font-weight: normal;
 }
+
+/* 
+  Simple Arena Image Display - CSS Part
+  Basic styling for the image display
+*/
+
+/* Container styling */
+.arena-display {
+	margin-bottom: var(--spacing-xl);
+  }
+  
+  /* Frame with 4:3 aspect ratio */
+  .arena-frame {
+	position: relative;
+	width: 100%;
+	padding-bottom: 75%; /* 4:3 aspect ratio */
+	background-color: var(--color-header-bg);
+	border-radius: var(--border-radius-medium);
+	margin-top: var(--spacing-md);
+	overflow: hidden;
+  }
+  
+  /* Image styling */
+  .arena-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  /* Caption styling */
+  .arena-caption {
+	text-align: center;
+	font-family: var(--mono-font);
+	font-size: 14px;
+	padding-top: var(--spacing-md);
+  }
