@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>[ wide / open \ space ]</title>
+  <description>A place for thoughts on my first try at life on earth.</description>
+  <link>https://wideopen.space/</link>
+  <atom:link href="https://wideopen.space/feed.xml" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Tue, 29 Apr 2025 10:24:00 +0200</lastBuildDate>
+  <language>en-us</language>
+
+    <item>
+    <title>Just me and the lads and $1 bajillion in funding</title>
+    <link>https://wideopen.space/#arena-gallery-component</link>
+    <guid>https://wideopen.space/#arena-gallery-component</guid>
+    <pubDate>Thu, 29 Apr 2025 10:24:00 +0200</pubDate>
+    <description><![CDATA[
+      <p>I’ve been a user and supporter of Are.na for years. I use it to store links, references, or images, and to explore the things that others choose to store in their channels. It also works as a janky CMS—one can drop content into a channel and then pull that content in elsewhere, like I’ve done here. Some Javascript (thanks Claude) and away we go.</p>
+      <p>I connected a channel I started as a repository for press photos pulled from Techcrunch, a tech news website that I’m convinced future civilisations will look back on as a timeline of our demise. These 30+ images I’ve collected as of today, 9 April, 2025, represent the corresponding number of Techcrunch articles on funding rounds of various startups since 1 January. Notice any patterns?</p>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>On Being A Conscious Consumer</title>
+    <link>https://wideopen.space/#article-on-being-a-better-consumer</link>
+    <guid>https://wideopen.space/#article-on-being-a-better-consumer</guid>
+    <pubDate>Thu, 22 Apr 2025 11:24:00 +0200</pubDate>
+    <description><![CDATA[
+      <p>Lately I've been trying to wriggle free of the tendrils of US hegemony, and let me tell you, this has not being going well. While I consider myself a conscious consumer I am also not willing to make the massive sacrifices that would keep my values intact.</p>
+      <p>I cycle everywhere but still fly home 3 times a year to see family at a cost of ~5t of CO2 per trip. I choose hotels over AirBnB, but still buy monthly staples (cat food, cat litter, detergent) via Amazon. I eat less meat and buy seasonal vegetables, yet devour digital content served up by harmful data centres.</p>
+    ]]></description>
+  </item>
+  
+  <item>
+    <title>On Running</title>
+    <link>https://wideopen.space/#article-on-running</link>
+    <guid>https://wideopen.space/#article-on-running</guid>
+    <pubDate>Tue, 15 Apr 2025 11:08:00 +0200</pubDate>
+    <description><![CDATA[
+      <p>I think I've been running for almost 13 years now. In fact, I've just confirmed this on my Nike Run Club app.</p>
+      <p>What started as a counterweight to my chain smoking and binge drinking has turned into something so much more. As I look towards what I want from running in the future, I felt like I needed to take a few minutes to get my thoughts straight.</p>
+    ]]></description>
+  </item>
+  
+  <item>
+    <title>HTML Energy is chill</title>
+    <link>https://wideopen.space/#post-htmlenergy</link>
+    <guid>https://wideopen.space/#post-htmlenergy</guid>
+    <pubDate>Sat, 20 Mar 2021 07:44:00 +0100</pubDate>
+    <description><![CDATA[
+      <p>I haven't spent time on WOS in a while but I recently stubmled onto the wonderful HTML Energy podcast and I've been inspired to keep going. I love that there are so many people out there doing the same kinda thing for so many different reasons.</p>
+    ]]></description>
+  </item>
+  
+  <item>
+    <title>PC Build</title>
+    <link>https://wideopen.space/#post-pcbuild</link>
+    <guid>https://wideopen.space/#post-pcbuild</guid>
+    <pubDate>Sun, 27 Sep 2020 18:58:00 +0200</pubDate>
+    <description><![CDATA[
+      <p>I haven't built a PC in 14 years. Here's my first attempt using scavenged parts from eBay-Kleinanzeigen. Unfortunately the RAM I purchased was not compatible with my mainboard but I'll be able to fix that soon.</p>
+    ]]></description>
+  </item>
+
+</channel>
+</rss>
