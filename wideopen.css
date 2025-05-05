@@ -93,7 +93,7 @@
   p {
 	font-family: var(--system-font);
 	font-size: 21px;
-	line-height: 1.48;
+	line-height: 1.55;
 	text-align: left;
 	padding-top: 0;
 	padding-bottom: var(--spacing-lg);
@@ -149,6 +149,7 @@
 	color: var(--color-link);
 	font-size: 21px;
 	padding-right: 0;
+	font-family: var(--system-font);
   }
   a.inline:hover {
 	color: black;
