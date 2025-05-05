@@ -1,5 +1,10 @@
 const fs = require('fs');
 
+// Make sure articles folder exists
+if (!fs.existsSync('articles')) {
+  fs.mkdirSync('articles');
+}
+
 // Article definitions
 const articles = [
   {
@@ -49,11 +54,11 @@ articles.forEach(article => {
   
   const articleContent = indexContent.substring(startIndex, endIndex);
   
-  // Save the raw article content to a file
+  // Save the raw article content to a file IN THE ARTICLES FOLDER
   fs.writeFileSync(`articles/${article.id}.html`, articleContent);
   console.log(`Created articles/${article.id}.html`);
   
-  // Create standalone article file
+  // Create standalone article file IN THE ROOT DIRECTORY
   let standaloneContent = articleTemplate;
   standaloneContent = standaloneContent.replace('{{ARTICLE_TITLE}}', article.title);
   standaloneContent = standaloneContent.replace('{{ARTICLE_DESCRIPTION}}', article.description);
@@ -66,9 +71,9 @@ articles.forEach(article => {
     standaloneContent = standaloneContent.replace('{{ARTICLE_JS}}', '');
   }
   
-  // Write standalone article file
-  fs.writeFileSync(article.filename, standaloneContent);
-  console.log(`Created ${article.filename}`);
+  // Write standalone article file TO ROOT DIRECTORY
+  fs.writeFileSync(`./${article.filename}`, standaloneContent);
+  console.log(`Created ${article.filename} in root directory`);
 });
 
 // Create new index.html by combining main template with article files
@@ -141,3 +146,4 @@ console.log('2. Replace your current index.html with index-new.html');
 console.log('3. Replace your current feed.xml with feed-new.xml');
 console.log('4. Upload the new HTML files and modified files to your host');
 console.log('\nThe articles are now stored in the articles/ folder for easy maintenance!');
+console.log('The public article HTML files are in the root directory for proper links.');
